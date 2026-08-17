@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSphere - Introduction</title>
+    <link rel="icon" type="image/png" href="https://edusphere-sukkur.vercel.app/assets/nsi_logo-dark-BXqMd5vr.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <!-- Slide 1: Introduction -->
+        <div class="slide active">
+            <h1 class="slide-title">EduSphere</h1>
+            <p class="slide-subtitle">A Complete Institute Management System</p>
+            <div class="slide-content">
+                <p>EduSphere is a comprehensive platform designed to streamline institute operations, providing dedicated portals for administration, teachers, students, and public website.</p>
+            </div>
+            <div class="slide-footer">
+                <p>Developed by <strong>Syed Zain Raza Zaidi </strong> & <strong>Muzamil Hussain</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Project Structure -->
+        <div class="slide">
+            <h2 class="slide-title">Project Structure</h2>
+            <div class="slide-content structure-tabs">
+                <div class="tabs">
+                    <button class="tab-btn active" data-target="website">Website</button>
+                    <button class="tab-btn" data-target="admin">Admin Portal</button>
+                    <button class="tab-btn" data-target="teacher">Teacher Portal</button>
+                    <button class="tab-btn" data-target="student">Student Portal</button>
+                    <button class="tab-btn" data-target="server">Server</button>
+                </div>
+                <div class="tab-content active" id="website">
+                    <h3>Public Website</h3>
+                    <p>Built with HTML, CSS, JavaScript, React, and Tailwind CSS. The main responsive landing page for the institute, showcasing features, announcements, and general information to the public.</p>
+                </div>
+                <div class="tab-content" id="admin">
+                    <h3>Admin Portal</h3>
+                    <p>Built with React and Vite. A centralized control panel for administrators to manage users, classes, subjects, assessments, and overall system settings.</p>
+                </div>
+                <div class="tab-content" id="teacher">
+                    <h3>Teacher Portal</h3>
+                    <p>Built with React and Vite. A dedicated workspace for teachers to manage classes, attendance, assignments, and grades efficiently.</p>
+                </div>
+                <div class="tab-content" id="student">
+                    <h3>Student Portal</h3>
+                    <p>Built with React and Vite. A personalized dashboard for students to view class content, submit assignments, track attendance, and view their profile.</p>
+                </div>
+                <div class="tab-content" id="server">
+                    <h3>Backend Server</h3>
+                    <p>A robust Node.js and Express backend connected to a MongoDB database. Provides secure RESTful APIs with JWT authentication and handles routing for classes, users, submissions, and grades.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Live View -->
+        <div class="slide">
+            <h2 class="slide-title">Live View</h2>
+            <p class="slide-subtitle">Explore the EduSphere Portals</p>
+            <div class="slide-content buttons-container">
+                <a href="https://edusphere-sukkur.vercel.app" target="_blank" class="btn">Website View</a>
+                <a href="https://edusphere-admin.vercel.app" target="_blank" class="btn">Admin Portal</a>
+                <a href="https://edusphere-teacher.vercel.app" target="_blank" class="btn">Teacher Portal</a>
+                <a href="https://edusphere-student.vercel.app" target="_blank" class="btn">Student Portal</a>
+            </div>
+        </div>
+
+        <!-- Slide 4: Login Details -->
+        <div class="slide">
+            <h2 class="slide-title">Login Credentials</h2>
+            <div class="slide-content credentials">
+                <p>Use the following demo credentials to access the respective portals:</p>
+                <div class="cred-grid">
+                    <div class="cred-card">
+                        <h3>Admin Portal</h3>
+                        <p><strong>Email:</strong> <span>eduspare@gmail.com</span></p>
+                        <p><strong>Password:</strong> <span>12345678</span></p>
+                    </div>
+                    <div class="cred-card">
+                        <h3>Teacher Portal</h3>
+                        <p><strong>Email:</strong> <span>eduspare@gmail.com</span></p>
+                        <p><strong>Password:</strong> <span>12345678</span></p>
+                    </div>
+                    <div class="cred-card">
+                        <h3>Student Portal</h3>
+                        <p><strong>Email:</strong> <span>eduspare@gmail.com</span></p>
+                        <p><strong>Password:</strong> <span>12345678</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Thank You -->
+        <div class="slide">
+            <h1 class="slide-title">EduSphere</h1>
+            <h2 class="slide-subtitle highlight">Thank You!</h2>
+                <p>Presented by <strong>Syed Zain Raza Zaidi </strong> & <strong>Muzamil Hussain</strong></p>
+        </div>
+
+        <!-- Navigation Controls -->
+        <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous Slide">❮</button>
+        <button class="nav-btn next-btn" id="nextBtn" aria-label="Next Slide">❯</button>
+        
+        <!-- Indicators -->
+        <div class="indicators">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+            <span class="dot" data-index="4"></span>
+        </div>
+    </div>    <script src="script.js"></script>
+</body>
+</html>
