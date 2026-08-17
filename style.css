@@ -214,7 +214,7 @@ body {
     border-bottom: 1px solid var(--glass-border);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     text-align: left;
-    width: 280px;
+    width: 360px;
 }
 
 .cred-card h3 {
